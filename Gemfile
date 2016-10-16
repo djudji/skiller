@@ -13,8 +13,9 @@ gem 'font-awesome-rails'
 gem 'simple_form'
 gem 'devise'
 gem 'gravatarify', '~> 3.0.0'
-
+gem 'geocoder'
 group :development, :test do
+  gem 'dotenv-rails'
   gem 'byebug', platform: :mri
   gem 'sqlite3'
 end
